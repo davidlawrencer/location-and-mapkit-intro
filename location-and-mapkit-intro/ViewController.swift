@@ -8,16 +8,21 @@
 
 import UIKit
 import CoreLocation
+import MapKit
 
 class ViewController: UIViewController {
 
     let locationManager = CLLocationManager()
     
+    let mapView = MKMapView(frame: UIScreen.main.bounds)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
+        self.view.addSubview(mapView)
         requestLocationAndAuthorizeIfNeeded()
         locationManager.delegate = self
+        mapView.showsUserLocation = true
         // Do any additional setup after loading the view.
     }
 

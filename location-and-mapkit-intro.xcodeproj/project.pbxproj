@@ -13,6 +13,7 @@
 		54353A00236C7EB400FEC5A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543539FF236C7EB400FEC5A8 /* Assets.xcassets */; };
 		54353A03236C7EB400FEC5A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54353A01236C7EB400FEC5A8 /* LaunchScreen.storyboard */; };
 		54353A0E236C7EB400FEC5A8 /* location_and_mapkit_introTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54353A0D236C7EB400FEC5A8 /* location_and_mapkit_introTests.swift */; };
+		54353A1A236C908200FEC5A8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54353A19236C908200FEC5A8 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		54353A09236C7EB400FEC5A8 /* location-and-mapkit-introTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "location-and-mapkit-introTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54353A0D236C7EB400FEC5A8 /* location_and_mapkit_introTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = location_and_mapkit_introTests.swift; sourceTree = "<group>"; };
 		54353A0F236C7EB400FEC5A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54353A19236C908200FEC5A8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54353A1A236C908200FEC5A8 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +65,7 @@
 				543539F5236C7EAE00FEC5A8 /* location-and-mapkit-intro */,
 				54353A0C236C7EB400FEC5A8 /* location-and-mapkit-introTests */,
 				543539F4236C7EAE00FEC5A8 /* Products */,
+				54353A18236C908200FEC5A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +98,14 @@
 				54353A0F236C7EB400FEC5A8 /* Info.plist */,
 			);
 			path = "location-and-mapkit-introTests";
+			sourceTree = "<group>";
+		};
+		54353A18236C908200FEC5A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54353A19236C908200FEC5A8 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
