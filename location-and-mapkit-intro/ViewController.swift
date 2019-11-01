@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = .white
         requestLocationAndAuthorizeIfNeeded()
         locationManager.delegate = self
         // Do any additional setup after loading the view.
