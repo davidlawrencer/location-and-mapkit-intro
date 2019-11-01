@@ -20,8 +20,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = .white
         self.view.addSubview(mapView)
-        requestLocationAndAuthorizeIfNeeded()
         locationManager.delegate = self
+        requestLocationAndAuthorizeIfNeeded()
         mapView.showsUserLocation = true
         // Do any additional setup after loading the view.
     }
